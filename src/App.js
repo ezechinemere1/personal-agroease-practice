@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from 'react';
+ import Brokerdb from './Brokerdb';
+//  import { ToastContainer, toast } from 'react-toastify';
+//  import 'react-toastify/dist/ReactToastify.css';
+
+
+
+// import Todocop from './Todocop';
+
+ 
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+//   const notify = () => toast.error("Wow Emeka finally deleted");
+  
+
+  return (
+    <React.Fragment>
+      
+        <Brokerdb/>  
+       {/* <Todocop/>  */}
+{/*     
+      <button onClick={notify}>click btn</button> */}
+      {/* <ToastContainer/> */}
+
+
+    
+       
+    </React.Fragment>
+   
+  );
+
+    }
 export default App;
